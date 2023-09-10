@@ -7,12 +7,21 @@
 ! Expires:      24h
 !-------------------------------------------------------------------------------------!
 
+
 !B站
 !动态页
 t.bilibili.com##[class="right"]
+t.bilibili.com##[class="reply-notice"]
 !直播页
 live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
+live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
+live.bilibili.com##[class="gift-planet-entry"]
+live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
+
 
 !百度
+!百度搜索
 baidu.com##[class="cr-offset "]
 baidu.com##[class="s-p-top"]
+!百度网盘
+pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
