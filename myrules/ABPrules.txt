@@ -1,4 +1,4 @@
-[Adblock Plus 3.19]
+[Adblock Plus 2.0]
 ! Title:        rules for AdBlock Plus
 ! Description:  自用过滤规则
 ! Author:       NEKOice
@@ -14,5 +14,5 @@ t.bilibili.com##[class="right"]
 live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
 
 !百度
-baidu.com##[class="cr-offset "]
+baidu.com##[class="cr-offset"]
 baidu.com##[class="s-p-top"]
