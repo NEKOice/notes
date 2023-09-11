@@ -12,9 +12,10 @@
 !动态页
 t.bilibili.com##[class="right"]
 t.bilibili.com##[class="reply-notice"]
+!视频页
+live.bilibili.com##[class="activity-m-v1 act-now"]
 !直播页
 live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
-live.bilibili.com##[class="activity-m-v1 act-now"]
 live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
 live.bilibili.com##[class="gift-planet-entry"]
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
