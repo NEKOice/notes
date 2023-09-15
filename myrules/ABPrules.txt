@@ -22,6 +22,7 @@ live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
 live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
 live.bilibili.com##[class="gift-planet-entry"]
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
+live.bilibili.com##[class="room-feed"]
 
 
 !百度
