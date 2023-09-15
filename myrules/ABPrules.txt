@@ -15,6 +15,7 @@ t.bilibili.com##[class="reply-notice"]
 !视频页
 www.bilibili.com##[class="activity-m-v1 act-now"]
 www.bilibili.com##[class="activity-m-v1 act-end"]
+www.bilibili.com##[class="reply-notice"]
 www.bilibili.com##[class="ad-report ad-floor-exp"]
 www.bilibili.com##[class="pop-live-small-mode part-undefined"]
 !直播页
