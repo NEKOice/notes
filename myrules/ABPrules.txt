@@ -24,7 +24,6 @@ live.bilibili.com##[class="gift-planet-entry"]
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
 live.bilibili.com##[class="room-feed"]
 live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
-live.bilibili.com##[class="p-relative z-sidebar contain-optimize"]
 
 
 !百度
