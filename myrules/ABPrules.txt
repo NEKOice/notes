@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title:        rules for AdBlock Plus
+! Title:        cat's rules for AdBlock Plus
 ! Description:  自用过滤规则
 ! Author:       NEKOice
 ! License:      Creative Commons BY-NC-SA
@@ -22,8 +22,9 @@ live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
 live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
 live.bilibili.com##[class="gift-planet-entry"]
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
-!live.bilibili.com##[class="room-feed"]
+live.bilibili.com##[class="room-feed"]
 live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
+live.bilibili.com##[class="p-relative z-sidebar contain-optimize"]
 
 
 !百度
