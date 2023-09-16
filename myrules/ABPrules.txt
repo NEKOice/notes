@@ -32,7 +32,8 @@ live.bilibili.com##.left-part-ctnr vertical-middle dp-table section p-relative
 
 !百度
 !百度搜索
-baidu.com##.cr-offset\s
+baidu.com##*#content_right
+baidu.com##.cr-offset 
 baidu.com##.s-p-top
 !百度网盘
 pan.baidu.com##.gameEntry wp-s-header__right-item
