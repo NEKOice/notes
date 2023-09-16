@@ -10,31 +10,29 @@
 
 !B站
 !动态页
-t.bilibili.com##[class="right"]
-t.bilibili.com##[class="reply-notice"]
-t.bilibili.com##[class="bili-user-profile-view__info__footer"]
-t.bilibili.com##[class="bili-user-profile-view__info__button follow checked"]
-t.bilibili.com##[class="bili-user-profile-view__info__button chat"]
+t.bilibili.com##.right
+t.bilibili.com##.reply-notice
+t.bilibili.com##.bili-user-profile-view__info__footer
 !视频页
-www.bilibili.com##[class="activity-m-v1 act-now"]
-www.bilibili.com##[class="activity-m-v1 act-end"]
-www.bilibili.com##[class="reply-notice"]
-www.bilibili.com##[class="ad-report ad-floor-exp"]
-www.bilibili.com##[class="pop-live-small-mode part-undefined"]
+www.bilibili.com##.activity-m-v1 act-now
+www.bilibili.com##.activity-m-v1 act-end
+www.bilibili.com##.reply-notice
+www.bilibili.com##.ad-report ad-floor-exp
+www.bilibili.com##.pop-live-small-mode part-undefined
 !直播页
-live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
-live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
-live.bilibili.com##[class="gift-planet-entry"]
-live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
-live.bilibili.com##[class="room-feed"]
-live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
-live.bilibili.com##[class="shop-popover"]
-live.bilibili.com##[class="left-part-ctnr vertical-middle dp-table section p-relative"]
+live.bilibili.com##.flip-view p-relative over-hidden w-100
+live.bilibili.com##.popular-and-hot-rank hot-normal-area
+live.bilibili.com##.gift-planet-entry
+live.bilibili.com##.activity-gather-entry activity-entry s-activity-entry
+live.bilibili.com##.room-feed
+live.bilibili.com##.link-footer-ctnr z-link-footer-ctnr
+live.bilibili.com##.shop-popover
+live.bilibili.com##.left-part-ctnr vertical-middle dp-table section p-relative
 
 
 !百度
 !百度搜索
-baidu.com##[class="cr-offset "]
-baidu.com##[class="s-p-top"]
+baidu.com##.cr-offset*
+baidu.com##.s-p-top
 !百度网盘
-pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
+pan.baidu.com##.gameEntry wp-s-header__right-item
