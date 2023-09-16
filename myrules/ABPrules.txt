@@ -23,12 +23,12 @@ www.bilibili.com##.pop-live-small-mode part-undefined
 live.bilibili.com##.flip-view p-relative over-hidden w-100
 live.bilibili.com##.popular-and-hot-rank hot-normal-area
 live.bilibili.com##.gift-planet-entry
+live.bilibili.com##*#link-footer-vm
 live.bilibili.com##.activity-gather-entry activity-entry s-activity-entry
 live.bilibili.com##.room-feed
 live.bilibili.com##.link-footer-ctnr z-link-footer-ctnr
 live.bilibili.com##.shop-popover
 live.bilibili.com##.left-part-ctnr vertical-middle dp-table section p-relative
-
 
 !百度
 !百度搜索
