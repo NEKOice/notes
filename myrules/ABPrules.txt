@@ -4,7 +4,7 @@
 ! Author:       NEKOice
 ! License:      Creative Commons BY-NC-SA
 ! Version:      2023
-! Expires:      24h
+! Expires:      1h
 !-------------------------------------------------------------------------------------!
 
 
