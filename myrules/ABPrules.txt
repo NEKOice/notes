@@ -13,6 +13,8 @@
 t.bilibili.com##[class="right"]
 t.bilibili.com##[class="reply-notice"]
 t.bilibili.com##[class="bili-user-profile-view__info__footer"]
+t.bilibili.com##[class="bili-user-profile-view__info__button follow checked"]
+t.bilibili.com##[class="bili-user-profile-view__info__button chat"]
 !视频页
 www.bilibili.com##[class="activity-m-v1 act-now"]
 www.bilibili.com##[class="activity-m-v1 act-end"]
