@@ -40,3 +40,10 @@ map.baidu.com##[class="message-panel-open"]
 map.baidu.com##[class="has-message"]
 !百度网盘
 pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
+
+
+!小说
+www.biququ.la##[id="device"]
+www.biququ.la##[class="button border-main"]
+www.biququ.la##[class="read_tj"]
+
