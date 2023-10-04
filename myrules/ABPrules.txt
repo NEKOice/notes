@@ -9,6 +9,7 @@
 
 
 !B站
+bilibili.com##[*原神*]
 !动态页
 t.bilibili.com##[class="right"]
 t.bilibili.com##[class="reply-notice"]
