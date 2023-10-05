@@ -53,5 +53,10 @@ www.cxbz958.org##[class="ywtop"]
 www.cxbz958.org##[class="header"]
 www.cxbz958.org##[class="nav"]
 www.cxbz958.org##[class="link"]
+www.xxbiqudu.com##[class="ywtop"]
+www.xxbiqudu.com##[class="header"]
+www.xxbiqudu.com##[class="nav"]
+www.xxbiqudu.com##[class="reader_mark0"]
+www.xxbiqudu.com##[class="reader_mark1"]
 
 
