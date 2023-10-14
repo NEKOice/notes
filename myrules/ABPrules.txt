@@ -62,5 +62,11 @@ www.beqege.cc##[class="ywtop"]
 www.beqege.cc##[class="header"]
 www.beqege.cc##[class="nav"]
 www.beqege.cc##[id="device"]
+www.msxsw.com##[style="text-align:center;"]
+www.msxsw.com##[class="ywtop"]
+www.msxsw.com##[class="header"]
+www.msxsw.com##[class="nav"]
+www.msxsw.com##[class="linkk"]
+www.msxsw.com##[id="tbox"]
 
 
