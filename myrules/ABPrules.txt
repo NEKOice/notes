@@ -41,4 +41,7 @@ map.baidu.com##[class="has-message"]
 !百度网盘
 pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
 
+!CSDN
+blog.csdn.net##[class="passport-login-container"]
+
 
