@@ -38,3 +38,6 @@ www.msxsw.com##[class="nav"]
 www.msxsw.com##[class="linkk"]
 www.msxsw.com##[id="tbox"]
 
+m.biququ.la##[id="device"]
+m.biququ.la##[class=" border-main"]
+m.biququ.la##[class="read_tj"]
