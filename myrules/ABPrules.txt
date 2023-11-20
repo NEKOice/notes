@@ -9,6 +9,8 @@
 
 
 !B站
+!主页
+www.bilibili.com##[class="adblock-tips"]
 !动态页
 t.bilibili.com##[class="right"]
 t.bilibili.com##[class="reply-notice"]
