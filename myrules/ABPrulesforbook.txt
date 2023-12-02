@@ -41,3 +41,8 @@ www.msxsw.com##[id="tbox"]
 m.biququ.la##[id="device"]
 m.biququ.la##[class=" border-main"]
 m.biququ.la##[class="read_tj"]
+
+www.sbooktxt.xyz##[class="ywtop"]
+www.sbooktxt.xyz##[class="header_logo"]
+www.sbooktxt.xyz##[class="footer"]
+
