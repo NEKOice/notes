@@ -40,8 +40,14 @@ baidu.com##[class="s-p-top"]
 !百度地图
 map.baidu.com##[class="message-panel-open"]
 map.baidu.com##[class="has-message"]
+map.baidu.com##[class=" BMap_cpyCtrl BMap_noprint anchorBL"]
 !百度网盘
 pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
+
+!高德地图
+www.amap.com##[class="amap-app-download usel"]
+www.amap.com##[class="amap-logo"]
+www.amap.com##[class="amap-copyright"]
 
 !CSDN
 csdn.net##[class="passport-login-container"]
