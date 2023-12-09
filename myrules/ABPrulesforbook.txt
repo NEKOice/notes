@@ -8,46 +8,14 @@
 !-------------------------------------------------------------------------------------!
 
 
-www.biququ.la##[class="ywtop"]
-www.biququ.la##[class="header"]
-www.biququ.la##[class="nav"]
-www.biququ.la##[id="device"]
-www.biququ.la##[class="button border-main"]
-www.biququ.la##[class="read_tj"]
-
-www.cxbz958.org##[class="ywtop"]
-www.cxbz958.org##[class="header"]
-www.cxbz958.org##[class="nav"]
-www.cxbz958.org##[class="link"]
-
-www.xxbiqudu.com##[class="ywtop"]
-www.xxbiqudu.com##[class="header"]
-www.xxbiqudu.com##[class="nav"]
-www.xxbiqudu.com##[class="reader_mark0"]
-www.xxbiqudu.com##[class="reader_mark1"]
-
-www.beqege.cc##[class="ywtop"]
-www.beqege.cc##[class="header"]
-www.beqege.cc##[class="nav"]
-www.beqege.cc##[id="device"]
-
-www.msxsw.com##[style="text-align:center;"]
-www.msxsw.com##[class="ywtop"]
-www.msxsw.com##[class="header"]
-www.msxsw.com##[class="nav"]
-www.msxsw.com##[class="linkk"]
-www.msxsw.com##[id="tbox"]
 
 m.biququ.la##[id="device"]
 m.biququ.la##[class=" border-main"]
 m.biququ.la##[class="read_tj"]
 
-www.sbooktxt.xyz##[class="ywtop"]
-www.sbooktxt.xyz##[class="header_logo"]
-www.sbooktxt.xyz##[class="lm"]
-www.sbooktxt.xyz##[class="footer"]
 
 m.26ks.org##[class="erwm"]
+
 
 www.525uc.com##[class="ywtop"]
 www.525uc.com##[class="header_logo"]
