@@ -36,18 +36,22 @@ www.bilibili.com##[class="ad-report ad-floor-exp"]
 www.bilibili.com##[class="pop-live-small-mode part-undefined"]
 
 !直播页
-!顶部\人气榜
+!上侧\人气榜
 live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
-!顶部\礼物星球
+!上侧\礼物星球
 live.bilibili.com##[class="gift-planet-entry"]
-!顶部\充值活动
+!上侧\充值活动
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
-!底部\动态
+!右上\舰队指挥官
+live.bilibili.com##[class="pilot"]
+!弹幕\入场提示
+live.bilibili.com##[class="chat-item  convention-msg border-box"]
+!左下\充值活动
+live.bilibili.com##[class="left-part-ctnr vertical-middle dp-table section p-relative"]
+!下侧\动态
 live.bilibili.com##[class="room-feed"]
 !底部\关于
 live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
-!左下\充值活动
-live.bilibili.com##[class="left-part-ctnr vertical-middle dp-table section p-relative"]
 
 
 
