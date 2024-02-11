@@ -9,22 +9,34 @@
 
 
 
+!起点
+!--------------------!
+!起点中文网
+!右侧\手机版下载
+www.qidian.com[class="page-bottom-item"]
+!右侧\桌面版下载
+www.qidian.com[class="page-bottom-item item-listen"]
+!中间\原地tp,游戏广告,写作软件官网
+www.qidian.com[class="focus-img cf"]
+
+!起点个人中心
+!顶部\游戏入口
+!my.qidian.com[]
+!上侧\游戏广告
+my.qidian.com[id="elGameTab"]
+!右侧\手机版
+my.qidian.com[class="page-bottom-fixed"]
+
+
+
+
+!笔趣趣
+!上下插入\app推荐
 m.biququ.la##[id="device"]
+!底部\章节报错
 m.biququ.la##[class=" border-main"]
+!底部\推荐
 m.biququ.la##[class="read_tj"]
-
-
-m.26ks.org##[class="erwm"]
-
-
-www.525uc.com##[class="ywtop"]
-www.525uc.com##[class="header_logo"]
-www.525uc.com##[class="ts"]
-www.525uc.com##[class="userpanel"]
-www.525uc.com##[class="nav"]
-www.525uc.com##[class="mainOne"]
-www.525uc.com##[class="footer"]
-
 
 
 
