@@ -14,6 +14,8 @@
 !主页
 !主页顶部\插件提示
 www.bilibili.com##[class="adblock-tips"]
+!右下\下载客户端
+www.bilibili.com##[class="desktop-download-tip"]
 
 !动态页
 !右侧\社区中心与话题
