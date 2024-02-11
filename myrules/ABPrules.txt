@@ -8,50 +8,74 @@
 !-------------------------------------------------------------------------------------!
 
 
+
 !B站
+!---------------------!
 !主页
+!主页顶部\插件提示
 www.bilibili.com##[class="adblock-tips"]
+
 !动态页
+!右侧\社区中心与话题
 t.bilibili.com##[class="right"]
-t.bilibili.com##[class="reply-notice"]
+!头像飘窗\已关注与发消息
 t.bilibili.com##[class="bili-user-profile-view__info__footer"]
+!头像飘窗\已关注
 t.bilibili.com##[class="bili-user-profile-view__info__button follow checked"]
+!头像飘窗\发消息
 t.bilibili.com##[class="bili-user-profile-view__info__button chat"]
+
 !视频页
+!评论顶部\站内活动广告
 www.bilibili.com##[class="activity-m-v1 act-now"]
-www.bilibili.com##[class="activity-m-v1 act-end"]
-www.bilibili.com##[class="reply-notice"]
+!右侧底部\站内活动广告
 www.bilibili.com##[class="ad-report ad-floor-exp"]
+!右侧底部\直博推荐
 www.bilibili.com##[class="pop-live-small-mode part-undefined"]
+
 !直播页
-live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
+!顶部\人气榜
 live.bilibili.com##[class="popular-and-hot-rank hot-normal-area"]
+!顶部\礼物星球
 live.bilibili.com##[class="gift-planet-entry"]
+!顶部\充值活动
 live.bilibili.com##[class="activity-gather-entry activity-entry s-activity-entry"]
+!底部\动态
 live.bilibili.com##[class="room-feed"]
+!底部\关于
 live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
-live.bilibili.com##[class="shop-popover"]
+!左下\充值活动
 live.bilibili.com##[class="left-part-ctnr vertical-middle dp-table section p-relative"]
 
+
+
 !百度
+!---------------------!
 !百度搜索
-baidu.com##[class="cr-offset "]
+!图标
 baidu.com##[class="s-p-top"]
+
 !百度地图
+!右上\广告
 map.baidu.com##[class="message-panel-open"]
+!右上\广告开关
 map.baidu.com##[class="has-message"]
+!底部\备案关于
 map.baidu.com##[class=" BMap_cpyCtrl BMap_noprint anchorBL"]
+
 !百度网盘
-pan.baidu.com##[class="gameEntry wp-s-header__right-item"]
+!顶部\游戏跳转
+pan.baidu.com##[class="gameEntry wp-s-header__right-item nd-game-entry"]
+
+
 
 !高德地图
-www.amap.com##[class="amap-app-download usel"]
+!---------------------!
+!右上\下载客户端
+www.amap.com##[class="app_download_box"]
+!左下\logo
 www.amap.com##[class="amap-logo"]
+!底部\备案关于
 www.amap.com##[class="amap-copyright"]
 
-!CSDN
-csdn.net##[class="passport-login-container"]
-csdn.net##[class="toolbar-container-right"]
-csdn.net##[class="more-toolbox-new"]
-!csdn.net##[]
 
