@@ -85,3 +85,15 @@ www.amap.com##[class="amap-logo"]
 www.amap.com##[class="amap-copyright"]
 
 
+!CSDN
+!---------------------!
+!右下\登录提示
+csdn.net##[class="passport-login-tip-container false"]
+!
+csdn.net##[]
+!
+csdn.net##[]
+!
+csdn.net##[]
+
+
