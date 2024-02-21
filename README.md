@@ -1,1 +1,3 @@
-# 自用笔记
+- myrules:Adblockplus屏蔽网页元素和B站正则屏蔽弹幕
+- game:游戏笔记
+- study:学习笔记
