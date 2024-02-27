@@ -21,18 +21,61 @@
     <!--class预设-->
     <style>
         .cards {
-            background-color:#d5e3ca;
+            background-color: #d5e3ca;
             border-radius: 6px;
             height: auto;
             position: relative;
             width: 100%;
+            padding: 10px;
+            border: 5px solid #c4efa1;
+            margin: 0;
+    
         }
-        .smalecards {
-            background-color:#c4efa1;
+
+        /* 打开和关闭手风琴面板的样式 */
+        .accordion {
+            background-color: #afe8f6;
+            color: #131313;
             border-radius: 6px;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
             height: auto;
-            position: relative;
-            width: 450px;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        /* 设置点击和鼠标移到选项上面时（悬停）的样式 */
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        /* 为手风琴面板设计样式。 默认隐藏 */
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            width: 90%;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        /* 设置 +、- 标志 */
+        .accordion:after {
+            content: '\002B';
+            /* Unicode 字符 + 号 */
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+            /* Unicode 字符 - 号 */
         }
     </style>
 
@@ -46,66 +89,92 @@
         <div id="container" style="width: 900px;">
 
             <div id="header" style="background-color:#F0FFFF;">
-                <h1 style="margin-bottom:0;"> <a id="top"> 收藏导航 </a> </h1>
+                <h1 style="margin-bottom:0;"> <a name="top"> 收藏导航 </a> </h1>
             </div>
             <hr>
-            
+
             <div id="content" style="background-color:#F5F5F5; height:1200; width: 900px;; float:left;">
-            
-                <div class="cards">
-            
-                    <h3>B站</h3>
-                    <a href="https://t.bilibili.com/" target="_blank"> B站动态 </a>
-                    <a href="https://www.bilibili.com/" target="_blank"> B站 </a>
-                    <a href="https://space.bilibili.com/392505232" target="_blank"> 安堂いなり </a>
-                    <a href="https://acghelper.com/" target="_blank"> acghelper(B站助手) </a>
-            
+
+                <button class="accordion">B站</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a href="https://t.bilibili.com/" target="_blank"> B站动态 </a>
+                        <a href="https://www.bilibili.com/" target="_blank"> B站 </a>
+                        <a href="https://space.bilibili.com/392505232" target="_blank"> 安堂いなり </a>
+                        <a href="https://acghelper.com/" target="_blank"> acghelper(B站助手) </a>
+
+                    </div>
                 </div>
-                <div class="cards">
-                    <h3>游戏</h3>
-                    <div class="smalecards">
-                        <h4>碧蓝航线</h4>
+
+                <button class="accordion">游戏</button>
+                <div class="panel">
+
+                    <div class="cards">
+                        <b>碧蓝航线</b>
                         <a href="https://game.bilibili.com/blhx/" target="_blank"> 碧蓝航线官网 </a>
                         <a href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5" target="_blank"> 碧蓝航线bwiki </a>
-                        <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
                     </div>
-                    <div class="smalecards">
-                        <h4>明日方舟</h4>
+                    <div class="cards">
+                        <b>明日方舟</b>
                         <a href="https://ak.hypergryph.com/#/home" target="_blank"> 明日方舟官网 </a>
                         <a href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5" target="_blank"> 明日方舟wiki </a>
                         <a href="https://arkn.lolicon.app/#/material" target="_blank"> 明日方舟工具箱 </a>
                         <a href="https://map.ark-nights.com/" target="_blank"> 明日方舟地图 </a>
-                        <a href="https://maa.plus/" target="_blank"> maa官网 </a>
+                        <a href="https://maa.plus/" target="_blank"> maa官网 </a><br>
                         <a href="https://github.com/MaaAssistantArknights" target="_blank"> github/maa </a>
                         <a href="https://ytl.viktorlab.cn/" target="_blank"> 一图流(攒抽计算) </a>
                         <a href="https://penguin-stats.cn/" target="_blank"> 企鹅物流 </a>
                     </div>
-                    <div class="smalecards">
-                        <h4>其他游戏</h4>
+                    <div class="cards">
+                        <b>其他游戏</b>
                         <a href="https://lhcx.iqigame.net/" target="_blank"> 灵魂潮汐官网 </a>
                         <a href="http://www.megagamelog.com/#/" target="_blank"> 交错战线官网 </a>
                     </div>
-                    <div class="smalecards">
-                        <h4>星界链</h4>
+                    <div class="cards">
+                        <b>星界链</b>
                         <a href="https://www.chinac.com/" target="_blank"> 星界链 </a>
-                        <a href="https://console.chinac.com/front/#/CloudMobile/UserConsole" target="_blank"> 星界链云手机 </a>
+                        <a href="https://console.chinac.com/front/#/CloudMobile/UserConsole" target="_blank"> 星界链云手机
+                        </a>
                         <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
                     </div>
+
                 </div>
+
+            </div>
+            <button class="accordion">百度</button>
+            <div class="panel">
                 <div class="cards">
-                    <h3>百度</h3>
                     <a href="https://www.baidu.com/" target="_blank"> 百度一下 </a>
                 </div>
             </div>
-            <hr>
-            <p>到底啦</p>
-            <a href="#top">返回顶部</a>
+            <div>
+                <hr>
+                <p>到底啦</p>
+                <a href="#top">返回顶部</a>
 
-            <div id="footer" style="background-color:#00FFFF;clear:both;text-align:center;">
-                琉璃自制</div>
-              
+                <div id="footer" style="background-color:#8dc3c3;clear:both;text-align:center;">琉璃自制</div>
+            </div>
+
+
         </div>
     </main>
+    <!--手风琴动画实现js代码-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
