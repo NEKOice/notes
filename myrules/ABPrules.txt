@@ -60,6 +60,11 @@ live.bilibili.com##[class="link-footer-ctnr z-link-footer-ctnr"]
 !百度搜索
 !图标
 baidu.com##[class="s-p-top"]
+!热搜
+baidu.com##[id="content_right"]
+!热搜
+baidu.com##[class="cr-offset "]
+
 
 !百度地图
 !右上\广告
