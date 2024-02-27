@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>琉璃主页</title>
+    <!--超链接格式-->
     <style>
         a:link {color: #000000;} /* 未访问链接 */
         a:visited {color: #000000;} /* 已访问链接 */
@@ -16,6 +17,23 @@
         a:visited {text-decoration: none;} /* visited link */
         a:hover {text-decoration: underline;} /* mouse over link */
         a:active {text-decoration: underline;} /* selected link */
+    </style>
+    <!--class预设-->
+    <style>
+        .cards {
+            background-color:#d5e3ca;
+            border-radius: 6px;
+            height: auto;
+            position: relative;
+            width: 100%;
+        }
+        .smalecards {
+            background-color:#c4efa1;
+            border-radius: 6px;
+            height: auto;
+            position: relative;
+            width: 450px;
+        }
     </style>
 
 </head>
@@ -31,38 +49,53 @@
                 <h1 style="margin-bottom:0;"> <a id="top"> 收藏导航 </a> </h1>
             </div>
             <hr>
-
+            
             <div id="content" style="background-color:#F5F5F5; height:1200; width: 900px;; float:left;">
-
-                <h3>B站</h3>
-                <a href="https://t.bilibili.com/" target="_blank"> B站动态 </a>
-                <a href="https://www.bilibili.com/" target="_blank"> B站 </a>
-                <a href="https://space.bilibili.com/392505232" target="_blank"> 安堂いなり </a>
-                <a href="https://acghelper.com/" target="_blank"> acghelper(B站助手) </a>
-
-                <h3>游戏</h3>
-
-                <h4>星界链</h4>
-                <a href="https://www.chinac.com/" target="_blank"> 星界链 </a>
-                <a href="https://console.chinac.com/front/#/CloudMobile/UserConsole" target="_blank"> 星界链云手机 </a>
-                <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
-                
-                <h4>明日方舟</h4>
-                <a href="https://ak.hypergryph.com/#/home" target="_blank"> 明日方舟官网 </a>
-                <a href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5" target="_blank"> 明日方舟wiki </a>
-                <a href="https://arkn.lolicon.app/#/material" target="_blank"> 明日方舟工具箱 </a>
-                <a href="https://map.ark-nights.com/" target="_blank"> 明日方舟地图 </a>
-                <a href="https://maa.plus/" target="_blank"> maa官网 </a>
-                <a href="https://github.com/MaaAssistantArknights" target="_blank"> github/maa </a>
-                <a href="https://ytl.viktorlab.cn/" target="_blank"> 一图流(攒抽计算) </a>
-                <a href="https://penguin-stats.cn/" target="_blank"> 企鹅物流 </a>
-
-                <h4>其他游戏</h4>
-                <a href="https://lhcx.iqigame.net/" target="_blank"> 灵魂潮汐官网 </a>
-
-
-                <h3>百度</h3>
-                <a href="https://www.baidu.com/" target="_blank"> 百度一下 </a>
+            
+                <div class="cards">
+            
+                    <h3>B站</h3>
+                    <a href="https://t.bilibili.com/" target="_blank"> B站动态 </a>
+                    <a href="https://www.bilibili.com/" target="_blank"> B站 </a>
+                    <a href="https://space.bilibili.com/392505232" target="_blank"> 安堂いなり </a>
+                    <a href="https://acghelper.com/" target="_blank"> acghelper(B站助手) </a>
+            
+                </div>
+                <div class="cards">
+                    <h3>游戏</h3>
+                    <div class="smalecards">
+                        <h4>碧蓝航线</h4>
+                        <a href="https://game.bilibili.com/blhx/" target="_blank"> 碧蓝航线官网 </a>
+                        <a href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5" target="_blank"> 碧蓝航线bwiki </a>
+                        <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
+                    </div>
+                    <div class="smalecards">
+                        <h4>明日方舟</h4>
+                        <a href="https://ak.hypergryph.com/#/home" target="_blank"> 明日方舟官网 </a>
+                        <a href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5" target="_blank"> 明日方舟wiki </a>
+                        <a href="https://arkn.lolicon.app/#/material" target="_blank"> 明日方舟工具箱 </a>
+                        <a href="https://map.ark-nights.com/" target="_blank"> 明日方舟地图 </a>
+                        <a href="https://maa.plus/" target="_blank"> maa官网 </a>
+                        <a href="https://github.com/MaaAssistantArknights" target="_blank"> github/maa </a>
+                        <a href="https://ytl.viktorlab.cn/" target="_blank"> 一图流(攒抽计算) </a>
+                        <a href="https://penguin-stats.cn/" target="_blank"> 企鹅物流 </a>
+                    </div>
+                    <div class="smalecards">
+                        <h4>其他游戏</h4>
+                        <a href="https://lhcx.iqigame.net/" target="_blank"> 灵魂潮汐官网 </a>
+                        <a href="http://www.megagamelog.com/#/" target="_blank"> 交错战线官网 </a>
+                    </div>
+                    <div class="smalecards">
+                        <h4>星界链</h4>
+                        <a href="https://www.chinac.com/" target="_blank"> 星界链 </a>
+                        <a href="https://console.chinac.com/front/#/CloudMobile/UserConsole" target="_blank"> 星界链云手机 </a>
+                        <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
+                    </div>
+                </div>
+                <div class="cards">
+                    <h3>百度</h3>
+                    <a href="https://www.baidu.com/" target="_blank"> 百度一下 </a>
+                </div>
             </div>
             <hr>
             <p>到底啦</p>
@@ -70,7 +103,7 @@
 
             <div id="footer" style="background-color:#00FFFF;clear:both;text-align:center;">
                 琉璃自制</div>
-
+              
         </div>
     </main>
 </body>
