@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>琉璃主页</title>
+    <!--超链接格式-->
+    <style>
+        /* 未访问链接 */
+
+        a:link {
+            color: #000000;
+        }
+
+        /* 已访问链接 */
+
+        a:visited {
+            color: #000000;
+        }
+
+        /* 鼠标移动到链接上 */
+
+        a:hover {
+            color: #0000FF;
+        }
+
+        /* 鼠标点击时 */
+
+        a:active {
+            color: #00ddd0;
+        }
+
+        /* unvisited link */
+
+        a:link {
+            text-decoration: none;
+        }
+
+        /* visited link */
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        /* mouse over link */
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* selected link */
+
+        a:active {
+            text-decoration: underline;
+        }
+    </style>
+    <!--class预设-->
+    <style>
+        .cards {
+            background-color: #d5e3ca;
+            border-radius: 6px;
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding: 6px;
+            border: 6px solid #c4efa1;
+            margin: 6px;
+            text-align: left;
+            outline: none;
+        }
+
+        .smaleframe {
+            width: auto;
+            height: auto;
+            padding: 2px;
+            border: 2px;
+            margin: 2px;
+        }
+
+        /* 打开和关闭手风琴面板的样式 */
+        .accordion {
+            background-color: #afe8f6;
+            color: #131313;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            border: 6px;
+            margin: 6px;
+            text-align: left;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        /* 设置点击和鼠标移到选项上面时（悬停）的样式 */
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        /* 为手风琴面板设计样式。 默认隐藏 */
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            width: 90%;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        /* 设置 +、- 标志 */
+        .accordion:after {
+            content: '\002B';
+            /* Unicode 字符 + 号 */
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+            /* Unicode 字符 - 号 */
+        }
+    </style>
+
+</head>
+<!--备注-->
+<!-- 链接 <a  href="A" target="_blank"> A </a>  -->
+<!-- 嵌套网页 <iframe src="A"  width="200" height="200"></iframe> -->
+
+<body>
+    <main>
+        <div id="container" style="width: 900px;">
+
+            <div id="header" style="background-color:#F0FFFF;">
+                <h1 style="margin-bottom:0;"> <a name="top"> 收藏导航 </a> </h1>
+            </div>
+            <hr>
+
+            <div id="content" style="background-color:#F5F5F5; height:1200; width: 900px;; float:left;">
+
+                <button class="accordion">学习</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://github.com/"> github </a>
+                        <a target="_blank" class="smaleframe" href="https://www.runoob.com/"> 菜鸟教程 </a>
+                    </div>
+                </div>
+
+                <button class="accordion">B站</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://t.bilibili.com/"> B站动态 </a>
+                        <a target="_blank" class="smaleframe" href="https://www.bilibili.com/"> B站 </a>
+                        <a target="_blank" class="smaleframe" href="https://acghelper.com/"> acghelper(B站助手) </a>
+                    </div>
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://live.bilibili.com/21224291"> 安堂直播间 </a>
+                        <a target="_blank" class="smaleframe" href="https://space.bilibili.com/392505232"> 安堂主页 </a>
+                    </div>
+                </div>
+
+                <button class="accordion">游戏</button>
+                <div class="panel">
+
+                    <div class="cards">
+                        <b>碧蓝航线</b><br>
+                        <a target="_blank" class="smaleframe" href="https://game.bilibili.com/blhx/"> 碧蓝航线官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5">
+                            碧蓝航线bwiki </a>
+                    </div>
+                    <div class="cards">
+                        <b>明日方舟</b><br>
+                        <a target="_blank" class="smaleframe" href="https://ak.hypergryph.com/#/home"> 明日方舟官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5"> 明日方舟wiki
+                        </a>
+                        <a target="_blank" class="smaleframe" href="https://arkn.lolicon.app/#/material"> 明日方舟工具箱 </a>
+                        <a target="_blank" class="smaleframe" href="https://map.ark-nights.com/"> 明日方舟地图 </a><br>
+                        <a target="_blank" class="smaleframe" href="https://maa.plus/"> maa官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://github.com/MaaAssistantArknights">
+                            github/maa </a>
+                        <a target="_blank" class="smaleframe" href="https://ytl.viktorlab.cn/"> 一图流(攒抽计算) </a>
+                        <a target="_blank" class="smaleframe" href="https://penguin-stats.cn/"> 企鹅物流 </a>
+                    </div>
+                    <div class="cards">
+                        <b>其他游戏</b><br>
+                        <a target="_blank" class="smaleframe" href="https://lhcx.iqigame.net/"> 灵魂潮汐官网 </a>
+                        <a target="_blank" class="smaleframe" href="http://www.megagamelog.com/#/"> 交错战线官网 </a>
+                    </div>
+                    <div class="cards">
+                        <b>星界链</b><br>
+                        <a target="_blank" class="smaleframe" href="https://www.chinac.com/"> 星界链 </a>
+                        <a target="_blank" class="smaleframe"
+                            href="https://console.chinac.com/front/#/CloudMobile/UserConsole"> 星界链云手机
+                        </a>
+                        <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
+                    </div>
+
+                </div>
+                <button class="accordion">百度</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://www.baidu.com/"> 百度一下 </a>
+                    </div>
+                </div>
+
+                <div>
+                    <hr>
+                    <p>到底啦</p>
+                    <a target="_blank" class="smaleframe" href="#top">返回顶部</a>
+
+                    <div id="footer" style="background-color:#8dc3c3;clear:both;text-align:center;">琉璃自制</div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <!--手风琴动画实现js代码-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
