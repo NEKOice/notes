@@ -8,15 +8,47 @@
     <title>琉璃主页</title>
     <!--超链接格式-->
     <style>
-        a:link {color: #000000;} /* 未访问链接 */
-        a:visited {color: #000000;} /* 已访问链接 */
-        a:hover {color: #0000FF;} /* 鼠标移动到链接上 */
-        a:active {color: #00ddd0;} /* 鼠标点击时 */
+        a:link {
+            color: #000000;
+        }
 
-        a:link {text-decoration: none;} /* unvisited link */
-        a:visited {text-decoration: none;} /* visited link */
-        a:hover {text-decoration: underline;} /* mouse over link */
-        a:active {text-decoration: underline;} /* selected link */
+        /* 未访问链接 */
+        a:visited {
+            color: #000000;
+        }
+
+        /* 已访问链接 */
+        a:hover {
+            color: #0000FF;
+        }
+
+        /* 鼠标移动到链接上 */
+        a:active {
+            color: #00ddd0;
+        }
+
+        /* 鼠标点击时 */
+
+        a:link {
+            text-decoration: none;
+        }
+
+        /* unvisited link */
+        a:visited {
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* mouse over link */
+        a:active {
+            text-decoration: underline;
+        }
+
+        /* selected link */
     </style>
     <!--class预设-->
     <style>
@@ -26,13 +58,19 @@
             position: relative;
             width: 100%;
             height: auto;
-            padding: 10px;
-            border: 5px solid #c4efa1;
-            margin: 0;
+            padding: 6px;
+            border: 6px solid #c4efa1;
+            margin: 6px;
             text-align: left;
             outline: none;
-            
-    
+        }
+
+        .smaleframe {
+            width: auto;
+            height: auto;
+            padding: 2px;
+            border: 2px;
+            margin: 2px;
         }
 
         /* 打开和关闭手风琴面板的样式 */
@@ -44,8 +82,8 @@
             width: 100%;
             height: auto;
             padding: 10px;
-            border: 5px;
-            margin: 0;
+            border: 6px;
+            margin: 6px;
             text-align: left;
             outline: none;
             transition: 0.4s;
@@ -85,13 +123,13 @@
 
 </head>
 <!--备注-->
-<!-- 链接 <a href="A" target="_blank"> A </a>  -->
+<!-- 链接 <a  href="A" target="_blank"> A </a>  -->
 <!-- 嵌套网页 <iframe src="A"  width="200" height="200"></iframe> -->
 
 <body>
     <main>
         <div id="container" style="width: 900px;">
-
+            
             <div id="header" style="background-color:#F0FFFF;">
                 <h1 style="margin-bottom:0;"> <a name="top"> 收藏导航 </a> </h1>
             </div>
@@ -99,14 +137,24 @@
 
             <div id="content" style="background-color:#F5F5F5; height:1200; width: 900px;; float:left;">
 
+                <button class="accordion">学习</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://github.com/"> github </a>
+                        <a target="_blank" class="smaleframe" href="https://www.runoob.com/"> 菜鸟教程 </a>
+                    </div>
+                </div>
+
                 <button class="accordion">B站</button>
                 <div class="panel">
                     <div class="cards">
-                        <a href="https://t.bilibili.com/" target="_blank"> B站动态 </a>
-                        <a href="https://www.bilibili.com/" target="_blank"> B站 </a>
-                        <a href="https://space.bilibili.com/392505232" target="_blank"> 安堂いなり </a>
-                        <a href="https://acghelper.com/" target="_blank"> acghelper(B站助手) </a>
-
+                        <a target="_blank" class="smaleframe" href="https://t.bilibili.com/"> B站动态 </a>
+                        <a target="_blank" class="smaleframe" href="https://www.bilibili.com/"> B站 </a>
+                        <a target="_blank" class="smaleframe" href="https://acghelper.com/"> acghelper(B站助手) </a>
+                    </div>
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://live.bilibili.com/21224291"> 安堂直播间 </a>
+                        <a target="_blank" class="smaleframe" href="https://space.bilibili.com/392505232"> 安堂主页 </a>
                     </div>
                 </div>
 
@@ -114,51 +162,55 @@
                 <div class="panel">
 
                     <div class="cards">
-                        <b>碧蓝航线</b>
-                        <a href="https://game.bilibili.com/blhx/" target="_blank"> 碧蓝航线官网 </a>
-                        <a href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5" target="_blank"> 碧蓝航线bwiki </a>
+                        <b>碧蓝航线</b><br>
+                        <a target="_blank" class="smaleframe" href="https://game.bilibili.com/blhx/"> 碧蓝航线官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5">
+                            碧蓝航线bwiki </a>
                     </div>
                     <div class="cards">
-                        <b>明日方舟</b>
-                        <a href="https://ak.hypergryph.com/#/home" target="_blank"> 明日方舟官网 </a>
-                        <a href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5" target="_blank"> 明日方舟wiki </a>
-                        <a href="https://arkn.lolicon.app/#/material" target="_blank"> 明日方舟工具箱 </a>
-                        <a href="https://map.ark-nights.com/" target="_blank"> 明日方舟地图 </a>
-                        <a href="https://maa.plus/" target="_blank"> maa官网 </a><br>
-                        <a href="https://github.com/MaaAssistantArknights" target="_blank"> github/maa </a>
-                        <a href="https://ytl.viktorlab.cn/" target="_blank"> 一图流(攒抽计算) </a>
-                        <a href="https://penguin-stats.cn/" target="_blank"> 企鹅物流 </a>
+                        <b>明日方舟</b><br>
+                        <a target="_blank" class="smaleframe" href="https://ak.hypergryph.com/#/home"> 明日方舟官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://prts.wiki/w/%E9%A6%96%E9%A1%B5"> 明日方舟wiki
+                        </a>
+                        <a target="_blank" class="smaleframe" href="https://arkn.lolicon.app/#/material"> 明日方舟工具箱 </a>
+                        <a target="_blank" class="smaleframe" href="https://map.ark-nights.com/"> 明日方舟地图 </a><br>
+                        <a target="_blank" class="smaleframe" href="https://maa.plus/"> maa官网 </a>
+                        <a target="_blank" class="smaleframe" href="https://github.com/MaaAssistantArknights">
+                            github/maa </a>
+                        <a target="_blank" class="smaleframe" href="https://ytl.viktorlab.cn/"> 一图流(攒抽计算) </a>
+                        <a target="_blank" class="smaleframe" href="https://penguin-stats.cn/"> 企鹅物流 </a>
                     </div>
                     <div class="cards">
-                        <b>其他游戏</b>
-                        <a href="https://lhcx.iqigame.net/" target="_blank"> 灵魂潮汐官网 </a>
-                        <a href="http://www.megagamelog.com/#/" target="_blank"> 交错战线官网 </a>
+                        <b>其他游戏</b><br>
+                        <a target="_blank" class="smaleframe" href="https://lhcx.iqigame.net/"> 灵魂潮汐官网 </a>
+                        <a target="_blank" class="smaleframe" href="http://www.megagamelog.com/#/"> 交错战线官网 </a>
                     </div>
                     <div class="cards">
-                        <b>星界链</b>
-                        <a href="https://www.chinac.com/" target="_blank"> 星界链 </a>
-                        <a href="https://console.chinac.com/front/#/CloudMobile/UserConsole" target="_blank"> 星界链云手机
+                        <b>星界链</b><br>
+                        <a target="_blank" class="smaleframe" href="https://www.chinac.com/"> 星界链 </a>
+                        <a target="_blank" class="smaleframe"
+                            href="https://console.chinac.com/front/#/CloudMobile/UserConsole"> 星界链云手机
                         </a>
                         <!--星界链云手机完整链接https://console.chinac.com/front/#/CloudMobile/UserConsole/MobileManagement/MobileManagement-->
                     </div>
 
                 </div>
-
-            </div>
-            <button class="accordion">百度</button>
-            <div class="panel">
-                <div class="cards">
-                    <a href="https://www.baidu.com/" target="_blank"> 百度一下 </a>
+                <button class="accordion">百度</button>
+                <div class="panel">
+                    <div class="cards">
+                        <a target="_blank" class="smaleframe" href="https://www.baidu.com/"> 百度一下 </a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <hr>
-                <p>到底啦</p>
-                <a href="#top">返回顶部</a>
+                
+                <div>
+                    <hr>
+                    <p>到底啦</p>
+                    <a target="_blank" class="smaleframe" href="#top">返回顶部</a>
+    
+                    <div id="footer" style="background-color:#8dc3c3;clear:both;text-align:center;">琉璃自制</div>
+                </div>
 
-                <div id="footer" style="background-color:#8dc3c3;clear:both;text-align:center;">琉璃自制</div>
             </div>
-
 
         </div>
     </main>
