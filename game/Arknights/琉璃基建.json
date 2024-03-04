@@ -1,0 +1,482 @@
+{
+	"plans": [
+		{
+			"rooms": {
+				"trading": [
+					{
+						"product": "LMD",
+						"operators": [
+							"巫恋",
+							"卡夫卡",
+							"龙舌兰"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "LMD",
+						"operators": [
+							"泰拉大陆调查团",
+							"乌有",
+							"但书"
+						],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"manufacture": [
+					{
+						"product": "Battle Record",
+						"operators": [
+							"槐琥",
+							"食铁兽",
+							"断罪者"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Battle Record",
+						"operators": [
+							"红云",
+							"稀音",
+							"卡达"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Pure Gold",
+						"operators": [
+							"清流",
+							"温蒂",
+							"森蚺"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Pure Gold",
+						"operators": [
+							"砾",
+							"至简",
+							"迷迭香"
+						],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"hire": [
+					{
+						"operators": [
+							"絮雨"
+						],
+						"autofill": true
+					}
+				],
+				"dormitory": [
+					{
+						"operators": [
+							"车尔尼",
+							"爱丽丝"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"control": [
+					{
+						"operators": [
+							"麒麟R夜刀",
+							"火龙S黑角",
+							"重岳",
+							"令",
+							"夕"
+						]
+					}
+				],
+				"power": [
+					{
+						"operators": [
+							"格雷伊"
+						],
+						"autofill": true
+					},
+					{
+						"operators": [
+							"澄闪"
+						],
+						"autofill": true
+					},
+					{
+						"operators": [
+							"雷蛇"
+						],
+						"autofill": true
+					}
+				],
+				"meeting": [
+					{
+						"operators": [
+							"晓歌",
+							"远山"
+						],
+						"autofill": true
+					}
+				]
+			},
+			"drones": {
+				"enable": true,
+				"index": 4,
+				"room": "manufacture",
+				"order": "pre"
+			},
+			"name": "晓歌高效",
+			"description": "晓歌高效"
+		},
+		{
+			"rooms": {
+				"trading": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"manufacture": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"hire": [
+					{
+						"skip": true
+					}
+				],
+				"dormitory": [
+					{
+						"operators": [
+							"车尔尼",
+							"爱丽丝"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"control": [
+					{
+						"skip": true
+					}
+				],
+				"power": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"meeting": [
+					{
+						"skip": true
+					}
+				]
+			},
+			"drones": {
+				"enable": true,
+				"index": 4,
+				"room": "manufacture",
+				"order": "pre"
+			},
+			"name": "晓歌后宅",
+			"description": "晓歌后宅"
+		},
+		{
+			"rooms": {
+				"trading": [
+					{
+						"product": "LMD",
+						"operators": [
+							"伺夜",
+							"鸿雪",
+							"图耶"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "LMD",
+						"operators": [
+							"能天使",
+							"拉普兰德",
+							"德克萨斯"
+						],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"manufacture": [
+					{
+						"product": "Battle Record",
+						"operators": [
+							"红豆",
+							"霜叶",
+							"Castle-3"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Battle Record",
+						"operators": [
+							"远牙",
+							"野鬃",
+							"灰毫"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Pure Gold",
+						"operators": [
+							"水月",
+							"海沫",
+							"赫默"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"product": "Pure Gold",
+						"operators": [
+							"泡泡",
+							"火神",
+							"刻俄柏"
+						],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"hire": [
+					{
+						"operators": [
+							"艾雅法拉"
+						],
+						"autofill": true
+					}
+				],
+				"dormitory": [
+					{
+						"operators": [
+							"杜林",
+							"至简",
+							"桃金娘",
+							"褐果"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"control": [
+					{
+						"operators": [
+							"阿米娅",
+							"凯尔希",
+							"焰尾",
+							"杜宾",
+							"玛恩纳"
+						]
+					}
+				],
+				"power": [
+					{
+						"operators": [
+							"伊芙利特"
+						],
+						"autofill": true
+					},
+					{
+						"operators": [
+							"异客"
+						],
+						"autofill": true
+					},
+					{
+						"operators": [
+							"正义骑士号"
+						],
+						"autofill": true
+					}
+				],
+				"meeting": [
+					{
+						"operators": [
+							"陈",
+							"红"
+						],
+						"autofill": true
+					}
+				]
+			},
+			"drones": {
+				"enable": true,
+				"index": 4,
+				"room": "manufacture",
+				"order": "pre"
+			},
+			"name": "红陈替补",
+			"description": "红陈替补"
+		},
+		{
+			"rooms": {
+				"trading": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"manufacture": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"hire": [
+					{
+						"skip": true
+					}
+				],
+				"dormitory": [
+					{
+						"operators": [
+							"杜林",
+							"至简",
+							"桃金娘",
+							"褐果"
+						],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					},
+					{
+						"operators": [],
+						"sort": true,
+						"autofill": true
+					}
+				],
+				"control": [
+					{
+						"skip": true
+					}
+				],
+				"power": [
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					},
+					{
+						"skip": true
+					}
+				],
+				"meeting": [
+					{
+						"skip": true
+					}
+				]
+			},
+			"drones": {
+				"enable": true,
+				"index": 4,
+				"room": "manufacture",
+				"order": "pre"
+			},
+			"name": "红陈后宅",
+			"description": "红陈后宅"
+		}
+	],
+	"author": "琉璃",
+	"description": "琉璃243",
+	"id": 1678535605269831,
+	"title": "琉璃243",
+	"buildingType": "243",
+	"planTimes": "2班"
+}
