@@ -20,14 +20,18 @@ www.bilibili.com##[class="desktop-download-tip"]
 !动态页
 !右侧\社区中心与话题
 t.bilibili.com##[class="right"]
-!头像飘窗\已关注与发消息
+!头像飘窗\关注与发消息
 t.bilibili.com##[class="bili-user-profile-view__info__footer"]
-!头像飘窗\已关注
+!头像飘窗\关注
 t.bilibili.com##[class="bili-user-profile-view__info__button follow checked"]
 !头像飘窗\发消息
 t.bilibili.com##[class="bili-user-profile-view__info__button chat"]
 
 !视频页
+!up飘窗\关注与发消息
+www.bilibili.com##[class="btn-box"]
+!评论用户飘窗\关注与发消息
+www.bilibili.com##[class="card-btn-warp"]
 !评论顶部\站内活动广告
 www.bilibili.com##[class="activity-m-v1 act-now"]
 !右侧底部\站内活动广告
