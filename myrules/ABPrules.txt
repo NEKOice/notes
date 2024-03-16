@@ -20,9 +20,9 @@ www.bilibili.com##[class="desktop-download-tip"]
 !动态页
 !右侧\社区中心与话题
 t.bilibili.com##[class="right"]
-!头像飘窗\关注与发消息
+!头像飘窗\已关注与发消息
 t.bilibili.com##[class="bili-user-profile-view__info__footer"]
-!头像飘窗\关注
+!头像飘窗\已关注
 t.bilibili.com##[class="bili-user-profile-view__info__button follow checked"]
 !头像飘窗\发消息
 t.bilibili.com##[class="bili-user-profile-view__info__button chat"]
@@ -54,6 +54,8 @@ live.bilibili.com##[class="chat-item  convention-msg border-box"]
 live.bilibili.com##[class="z-shop-popover-vm"]
 !左下\充值活动
 live.bilibili.com##[class="left-part-ctnr vertical-middle dp-table section p-relative"]
+!下侧\广告
+live.bilibili.com##[class="flip-view p-relative over-hidden w-100"]
 !下侧\动态
 live.bilibili.com##[class="room-feed"]
 !底部\关于
@@ -94,6 +96,15 @@ www.amap.com##[class="app_download_box"]
 www.amap.com##[class="amap-logo"]
 !底部\备案关于
 www.amap.com##[class="amap-copyright"]
+
+!斗鱼
+!---------------------!
+!下方\热议等
+www.douyu.com##[class="layout-Bottom"]
+!右侧\浮窗
+www.douyu.com##[class="ActSuperFans ActBase is-show"]
+!右侧\打赏排行
+www.douyu.com##[class="layout-Player-rank"]
 
 
 !CSDN
